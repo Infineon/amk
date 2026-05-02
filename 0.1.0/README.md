@@ -292,10 +292,6 @@ fully purge, delete that directory manually.
 ## 10. Version & support
 
 - **Release:** AMK 0.1.0
-- **Installer binaries:** built from
-  [`amk-deploy`](https://github.com/Infineon/amk-deploy) — see the project
-  source for full developer documentation, GPU runbooks, and architecture
-  diagrams.
 - **Image source:** [`infineon/amk` on HuggingFace](https://huggingface.co/datasets/infineon/amk)
   — public, no token required.
 
