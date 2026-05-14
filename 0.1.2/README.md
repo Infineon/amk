@@ -90,12 +90,6 @@ Highlights since 0.1.1:
   the notebook-readiness webhook URL was rewritten incorrectly through the
   WSL2 / Podman networking stack has been corrected, so `create` on Windows
   now waits on the same readiness signal as Linux.
-- **Ollama integration documentation.** New docs (with diagrams) describe
-  running Ollama-backed inference workloads inside the AMK cluster, including
-  GPU passthrough caveats. One source diagram with a control-character in its
-  filename was removed for NTFS / Windows-clone compatibility.
-- **LPWWD pipeline diff doc.** New reference comparing the in-cluster LPWWD
-  pipeline to the upstream variant, to ease migration of existing notebooks.
 
 The command-line surface remains backwards compatible with 0.1.1; all new
 behavior is opt-in via new flags (`--system-wide`, `--shared-root`).
